@@ -1,0 +1,11 @@
+name: nyan-spec
+version: 0.1.0
+
+authors:
+  - Tim Hagemann <tim@infinityblade.de>
+
+license: MIT
+
+dependencies:
+    ncurses:
+        github: jreinert/ncurses-crystal
