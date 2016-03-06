@@ -116,7 +116,7 @@ module NyanSpec
     def draw_scoreboard
         draw_with_color = ->(color : Symbol, n : Int32){
             write ' '
-            write color_me(color, n.to_s)
+            write NyanSpec.color_me(color, n.to_s)
             write "\n"
         }
 
